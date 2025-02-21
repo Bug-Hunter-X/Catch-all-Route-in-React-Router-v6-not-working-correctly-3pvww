@@ -1,0 +1,1 @@
+This repository demonstrates a common issue with catch-all routes ("/*") in React Router v6.  The issue is that the catch-all route will always be matched, even if another route is a better match. The solution shows how to correctly implement catch-all routes, ensuring they are only used when no other routes match.
